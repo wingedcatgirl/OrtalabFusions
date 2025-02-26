@@ -1,4 +1,4 @@
---FusionJokers.fusions:add_fusion("j_ortalab_abstemious", nil, false, "j_ortalab_basalt_column", nil, false, "j_ortafuse_clubzombie", 12)
+FusionJokers.fusions:add_fusion("j_ortalab_abstemious", nil, false, "j_ortalab_basalt_column", nil, false, "j_ortafuse_clubzombie", 12)
 
 SMODS.Joker {
     key = "clubzombie",
