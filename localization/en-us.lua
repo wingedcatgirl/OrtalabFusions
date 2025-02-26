@@ -58,6 +58,13 @@ return {
 					"the {V:1}#1#{} suit"
 				},
 			},
+			["j_ortafuse_tagger"] = {
+				["name"] = "Tagger",
+				["text"] = {
+					"Does {C:attention}something{} with",
+					"{C:chips}hands{}"
+				},
+			},
 		},
 	},
 }

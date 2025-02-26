@@ -15,20 +15,16 @@ Does something TBD with Diamonds</li>
 Does something TBD with Zodiacs, played hand counts, and a countdown</li>
 <li>TBD (Red Fred + Pitch Mitch + $12)<br>
 Does something TBD with suits</li>
-<li>TBD (Chaos the Clown + TBD + $12)<br>
-Does something TBD</li>
-<li>TBD (Cardist + TBD + $12)<br>
-Does something TBD</li>
+<li>TBD (Business Joker + TBD + $12)<br>
+Does something TBD with rerolls</li>
+<li>Tagger (Cardist + Graffiti + $12)<br>
+Does something TBD with hands</li>
 <li>TBD (Scratch Card + TBD + $12)<br>
 Does something TBD with numbered cards and probably money</li>
-<li>TBD (Art Gallery + TBD + $12)<br>
-Does something TBD</li>
+<li>TBD (Art Gallery + Forklift Certificate + $12)<br>
+Does something TBD with consumables used and consumable slots</li>
 <li>TBD (Sunny Side Up + TBD + $12)<br>
 Does something TBD with money</li>
-<li>TBD (Graffiti + TBD + $12)<br>
-Does something TBD</li>
-<li>TBD (Forklift Certificate + TBD + $12)<br>
-Does something TBD</li>
 <li>TBD (Dawn + TBD + $12)<br>
 Does something TBD with retriggers on the first hand</li>
 </ul>
