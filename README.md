@@ -27,5 +27,7 @@ Does something TBD with consumables used and consumable slots</li>
 Does something TBD with money</li>
 <li>TBD (Dawn + TBD + $12)<br>
 Does something TBD with retriggers on the first hand</li>
+<li>TBD (Scared Face + Frowny Face + $12)<br>
+Does something TBD with face cards</li>
 </ul>
 </details> 
