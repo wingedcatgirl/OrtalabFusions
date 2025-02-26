@@ -13,23 +13,23 @@ Does something TBD with Spades</li>
 Does something TBD with Diamonds</li>
 <li>TBD (Protostar + Stargazing + $12)<br>
 Does something TBD with Zodiacs, played hand counts, and a countdown</li>
-<li>TBD (Red Fred + Pitch Mitch + $TBD)<br>
+<li>TBD (Red Fred + Pitch Mitch + $12)<br>
 Does something TBD with suits</li>
-<li>TBD (Chaos the Clown + TBD + $TBD)<br>
+<li>TBD (Chaos the Clown + TBD + $12)<br>
 Does something TBD</li>
-<li>TBD (Cardist + TBD + $TBD)<br>
+<li>TBD (Cardist + TBD + $12)<br>
 Does something TBD</li>
-<li>TBD (Scratch Card + TBD + $TBD)<br>
+<li>TBD (Scratch Card + TBD + $12)<br>
 Does something TBD with numbered cards and probably money</li>
-<li>TBD (Art Gallery + TBD + $TBD)<br>
+<li>TBD (Art Gallery + TBD + $12)<br>
 Does something TBD</li>
-<li>TBD (Sunny Side Up + TBD + $TBD)<br>
+<li>TBD (Sunny Side Up + TBD + $12)<br>
 Does something TBD with money</li>
-<li>TBD (Graffiti + TBD + $TBD)<br>
+<li>TBD (Graffiti + TBD + $12)<br>
 Does something TBD</li>
-<li>TBD (Forklift Certificate + TBD + $TBD)<br>
+<li>TBD (Forklift Certificate + TBD + $12)<br>
 Does something TBD</li>
-<li>TBD (Dawn + TBD + $TBD)<br>
+<li>TBD (Dawn + TBD + $12)<br>
 Does something TBD with retriggers on the first hand</li>
 </ul>
 </details> 
