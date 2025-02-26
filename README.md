@@ -28,6 +28,6 @@ Does something TBD with money</li>
 <li>TBD (Dawn + TBD + $12)<br>
 Does something TBD with retriggers on the first hand</li>
 <li>TBD (Scared Face + Frowny Face + $12)<br>
-Does something TBD with face cards</li>
+Does something TBD with number cards</li>
 </ul>
 </details> 
