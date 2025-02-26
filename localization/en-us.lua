@@ -33,29 +33,29 @@ return {
 			["j_ortafuse_clubzombie"] = {
 				["name"] = "Club Zombie",
 				["text"] = {
-					"Does {c:attention}something{} with",
-					"the #1# suit"
+					"Does {C:attention}something{} with",
+					"the {V:1}#1#{} suit"
 				},
 			},
 			["j_ortafuse_diamonddemon"] = {
 				["name"] = "Diamond Demon",
 				["text"] = {
-					"Does {c:attention}something{} with",
-					"the #1# suit"
+					"Does {C:attention}something{} with",
+					"the {V:1}#1#{} suit"
 				},
 			},
 			["j_ortafuse_heartmimic"] = {
 				["name"] = "Heart Mimic",
 				["text"] = {
-					"Does {c:attention}something{} with",
-					"the #1# suit"
+					"Does {C:attention}something{} with",
+					"the {V:1}#1#{} suit"
 				},
 			},
 			["j_ortafuse_spadeslime"] = {
 				["name"] = "Spade Slime",
 				["text"] = {
-					"Does {c:attention}something{} with",
-					"the #1# suit"
+					"Does {C:attention}something{} with",
+					"the {V:1}#1#{} suit"
 				},
 			},
 		},

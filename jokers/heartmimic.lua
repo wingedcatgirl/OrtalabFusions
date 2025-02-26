@@ -31,7 +31,13 @@ SMODS.Joker {
         return {
             key = key,
             vars = {
-                card.ability.extra.suit
+				localize(
+					card.ability.extra.suit,
+					"suits_plural"
+				),
+				colours = {
+					G.C.SUITS[card.ability.extra.suit],
+				},
             }
         }
     end,
