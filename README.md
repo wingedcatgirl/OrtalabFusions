@@ -5,7 +5,7 @@ Fusion Virtues (or Ortalab Fusions) adds [fusions](https://github.com/lshtech/Fu
 <ul>
 <li>Club Zombie (Abstemious Joker + Basalt Column + $12)<br>
 Does something TBD with Clubs</li>
-<li>Heart Mimic (Chastful Joker + Amber MOsquito + $12)<br>
+<li>Heart Mimic (Chastful Joker + Amber Mosquito + $12)<br>
 Does something TBD with Hearts</li>
 <li>Spade Slime (Patient Joker + Dripstone + $12)<br>
 Does something TBD with Spades</li>
