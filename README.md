@@ -16,7 +16,7 @@ Does something TBD with Zodiacs, played hand counts, and a countdown</li>
 <li>TBD (Red Fred + Pitch Mitch + $12)<br>
 Does something TBD with suits</li>
 <li>TBD (Business Joker + TBD + $12)<br>
-Does something TBD with rerolls</li>
+Does something TBD with rerolls (not just Collectible Chaos again)</li>
 <li>Tagger (Cardist + Graffiti + $12)<br>
 Does something TBD with hands</li>
 <li>TBD (Scratch Card + TBD + $12)<br>
@@ -28,6 +28,6 @@ Does something TBD with money</li>
 <li>TBD (Dawn + TBD + $12)<br>
 Does something TBD with retriggers on the first hand</li>
 <li>TBD (Scared Face + Frowny Face + $12)<br>
-Does something TBD with number cards</li>
+Does something TBD with number cards (not just Dynamic Duo again)</li>
 </ul>
 </details> 
