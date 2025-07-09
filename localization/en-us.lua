@@ -27,7 +27,7 @@ return {
                     "on multiple lines",
                     "with #1# variables from loc_vars",
                     " ",
-                    "{C:inactive,S:0.8}And optional funny flavor text!"
+                    "{C:inactive,s:0.8}And optional funny flavor text!"
 				},
 			},
 			["j_ortafuse_clubzombie"] = {
@@ -47,8 +47,22 @@ return {
 			["j_ortafuse_heartmimic"] = {
 				["name"] = "Heart Mimic",
 				["text"] = {
-					"Does {C:attention}something{} with",
-					"the {V:1}#1#{} suit"
+					"For each {V:1}#1#{} held,",
+					"scored {V:1}#1#s{} have",
+					"a {C:green}#2# in #3#{} chance not to",
+					"give {X:mult,C:white}X#4#{} Mult"
+				},
+			},
+			["j_ortafuse_heartmimic_flavor"] = {
+				["name"] = "Heart Mimic",
+				["text"] = {
+					"For each {V:1}#1#{} held,",
+					"scored {V:1}#5#{} have",
+					"a {C:green}#2# in #3#{} chance not to",
+					"give {X:mult,C:white}X#4#{} Mult",
+					" ",
+					"{C:inactive,s:0.8}YOU'VE GOT THE [[HeartShapedObject]]{}",
+					"{C:inactive,s:0.8}WHY DON'T YOU [[Show it off?]]",
 				},
 			},
 			["j_ortafuse_spadeslime"] = {

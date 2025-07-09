@@ -3,10 +3,10 @@
 SMODS.Joker {
     key = "newjoker",
     name = "New Joker",
-    atlas = 'ortafusejokers',
+    atlas = 'placeholder',
     pos = {
-        x = 4,
-        y = 2
+        x = 0,
+        y = 0
     },
     rarity = 'fusion',
     cost = 12,
@@ -23,7 +23,7 @@ SMODS.Joker {
     loc_vars = function(self, info_queue, card)
         local key = self.key
         --[[ Remove all this if you don't feel like writing optional flavor text
-        if SMODS.current_mod.config.flavor_text then
+        if ORTAFUSE.config.flavor_text then
             key = self.key.."_flavor"
         end
         ]]

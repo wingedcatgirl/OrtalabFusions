@@ -3,7 +3,7 @@ FusionJokers.fusions:add_fusion("j_ortalab_generous", nil, false, "j_ortalab_foo
 SMODS.Joker {
     key = "diamonddemon",
     name = "Diamond Demon",
-    atlas = 'ortafusejokers',
+    atlas = 'jokers',
     pos = {
         x = 1,
         y = 0
@@ -24,7 +24,7 @@ SMODS.Joker {
     loc_vars = function(self, info_queue, card)
         local key = self.key
         --[[ Remove all this if you don't feel like writing optional flavor text
-        if SMODS.current_mod.config.flavor_text then
+        if ORTAFUSE.config.flavor_text then
             key = self.key.."_flavor"
         end
         ]]

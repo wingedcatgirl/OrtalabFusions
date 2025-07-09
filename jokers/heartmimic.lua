@@ -3,7 +3,7 @@ FusionJokers.fusions:add_fusion("j_ortalab_chastful", nil, false, "j_ortalab_amb
 SMODS.Joker {
     key = "heartmimic",
     name = "Heart Mimic",
-    atlas = 'ortafusejokers',
+    atlas = 'jokers',
     pos = {
         x = 0,
         y = 0
@@ -15,22 +15,29 @@ SMODS.Joker {
     eternal_compat = true,
     perishable_compat = true,
     blueprint_compat = true,
+    demicoloncompat = true,
     config = {
         extra = {
             suit = "Hearts",
-            mult = 5
+            xmult = 2,
+            odds = 2
         }
     },
     loc_vars = function(self, info_queue, card)
         local key = self.key
-        --[[ Remove all this if you don't feel like writing optional flavor text
-        if SMODS.current_mod.config.flavor_text then
+        if ORTAFUSE.config.flavor_text then
             key = self.key.."_flavor"
         end
-        ]]
         return {
             key = key,
             vars = {
+				localize(
+					card.ability.extra.suit,
+					"suits_singular"
+				),
+                G.GAME.probabilities.normal or 1,
+                card.ability.extra.odds,
+                card.ability.extra.xmult,
 				localize(
 					card.ability.extra.suit,
 					"suits_plural"
@@ -42,8 +49,20 @@ SMODS.Joker {
         }
     end,
     calculate = function(self, card, context)
-        -- Calculation goes here
+        if (context.cardarea == G.play and context.individual and context.other_card:is_suit(card.ability.extra.suit)) or context.forcetrigger then
+            ORTAFUSE.say("Heart played")
+            for i=1,#G.hand.cards do
+                if G.hand.cards[i]:is_suit(card.ability.extra.suit) and ((pseudorandom(pseudoseed("heart_mimic")) > G.GAME.probabilities.normal/card.ability.extra.odds) or context.forcetrigger) then
+                    SMODS.calculate_effect(
+                        {
+                            xmult = card.ability.extra.xmult,
+                            message_card = card,
+                            juice_card = G.hand.cards[i]
+                        },
+                        card
+                    )
+                end
+            end
+        end
     end
 }
-
--- See localization/en-us.lua to create joker text
