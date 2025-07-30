@@ -47,8 +47,8 @@ return {
 			["j_ortafuse_heartmimic"] = {
 				["name"] = "Heart Mimic",
 				["text"] = {
-					"For each {V:1}#1#{} held,",
-					"scored {V:1}#1#s{} have",
+					"When a {V:1}#1#{} scores,",
+					"held {V:1}#5#{} have",
 					"a {C:green}#2# in #3#{} chance not to",
 					"give {X:mult,C:white}X#4#{} Mult"
 				},
@@ -56,8 +56,8 @@ return {
 			["j_ortafuse_heartmimic_flavor"] = {
 				["name"] = "Heart Mimic",
 				["text"] = {
-					"For each {V:1}#1#{} held,",
-					"scored {V:1}#5#{} have",
+					"When a {V:1}#1#{} scores,",
+					"held {V:1}#5#{} have",
 					"a {C:green}#2# in #3#{} chance not to",
 					"give {X:mult,C:white}X#4#{} Mult",
 					" ",

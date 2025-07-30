@@ -50,7 +50,7 @@ SMODS.Joker {
     end,
     calculate = function(self, card, context)
         if (context.cardarea == G.play and context.individual and context.other_card:is_suit(card.ability.extra.suit)) or context.forcetrigger then
-            ORTAFUSE.say("Heart played")
+            --ORTAFUSE.say("Heart played")
             for i=1,#G.hand.cards do
                 if G.hand.cards[i]:is_suit(card.ability.extra.suit) and ((pseudorandom(pseudoseed("heart_mimic")) > G.GAME.probabilities.normal/card.ability.extra.odds) or context.forcetrigger) then
                     SMODS.calculate_effect(
